@@ -1,0 +1,29 @@
+
+
+body { 
+  font-family: 'Montserrat', sans-serif;
+  background-color: #EBD5B3; 
+  margin: 0 auto;
+}
+
+h1 { 
+  margin-top: 10px;
+  font-weight: 500; 
+  text-align: center;
+}
+
+.scrolling-wrapper { 
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper .card { 
+  height: 220px;
+  width: 150px;
+  flex: 0 0 auto;
+  margin: 8px;
+  filter: drop-shadow(0px 8px 8px black);
+
+}
